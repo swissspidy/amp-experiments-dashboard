@@ -156,7 +156,7 @@ export async function getStaticProps(context) {
   const clientSideExperiments = (
     await (
       await fetch(
-        "https://raw.githubusercontent.com/ampproject/amphtml/main/build-system/global-configs/client-side-experiments-config.json",
+        "https://raw.githubusercontent.com/ampproject/cdn-configuration/main/configs/client-side-experiments.json",
         {
           headers: { "Content-Type": "application/json" },
         }
