@@ -119,7 +119,7 @@ export default function Home({ clientSideExperiments, prodExperiments }) {
             <h2 className="text-2xl font-bold">Client-side Experiments</h2>
             <p className="mt-4 text-xl">
               <a
-                href="https://raw.githubusercontent.com/ampproject/amphtml/main/build-system/global-configs/client-side-experiments-config.json"
+                href="https://github.com/ampproject/cdn-configuration/blob/main/configs/client-side-experiments.json"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-blue-600 focus:text-blue-600"
@@ -135,7 +135,7 @@ export default function Home({ clientSideExperiments, prodExperiments }) {
             <h2 className="text-2xl font-bold">Prod Experiments</h2>
             <p className="mt-4 text-xl">
               <a
-                href="https://raw.githubusercontent.com/ampproject/amphtml/main/build-system/global-configs/prod-config.json"
+                href="https://github.com/ampproject/amphtml/blob/main/build-system/global-configs/prod-config.json"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-blue-600 focus:text-blue-600"
